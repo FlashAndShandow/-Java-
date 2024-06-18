@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MyPanel extends JPanel {
-    private MyTank myTank = null;
+    private MyTank myTank ;
 
     public MyPanel() {
         myTank = new MyTank(100, 100);
